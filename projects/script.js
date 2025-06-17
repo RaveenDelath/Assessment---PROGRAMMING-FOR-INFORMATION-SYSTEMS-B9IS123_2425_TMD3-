@@ -12,9 +12,9 @@ class Projects {
     // Load sample data
     loadSampleData() {
         const samples = [
-            { name: "Kitchen Renovation", client: "John Smith", status: "In Progress", budget: 25000, startDate: "2024-01-15", endDate: "2024-03-15", location: "123 Main St", description: "Complete kitchen remodeling" },
-            { name: "Bathroom Remodel", client: "Mary Johnson", status: "Planning", budget: 15000, startDate: "2024-03-01", endDate: "2024-04-30", location: "456 Oak Ave", description: "Modern bathroom renovation" },
-            { name: "Living Room Makeover", client: "David Wilson", status: "Completed", budget: 12000, startDate: "2023-11-01", endDate: "2023-12-15", location: "789 Pine St", description: "Living room transformation" }
+            { name: "Kitchen Renovation", client: "Noah Mitchell", status: "In Progress", budget: 25000, startDate: "2024-01-15", endDate: "2024-03-15", location: "123 Main St", description: "Complete kitchen remodeling" },
+            { name: "Bathroom Remodel", client: "Zoe Robinson", status: "Planning", budget: 15000, startDate: "2024-03-01", endDate: "2024-04-30", location: "456 Oak Ave", description: "Modern bathroom renovation" },
+            { name: "Living Room Makeover", client: "Nora O’Brien", status: "Completed", budget: 12000, startDate: "2023-11-01", endDate: "2023-12-15", location: "789 Pine St", description: "Living room transformation" }
         ];
 
         samples.forEach(project => this.createProject(project));

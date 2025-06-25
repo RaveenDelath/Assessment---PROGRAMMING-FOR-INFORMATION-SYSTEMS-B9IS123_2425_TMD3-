@@ -1,3 +1,7 @@
+# Company: GID Renovation
+# Official Website: https://www.gidrenovation.com/
+# Location: https://www.google.com/maps?rlz=1C1VDKB_enLK1100LK1100&gs_lcrp=EgZjaHJvbWUqEggBEC4YJxivARjHARiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhIIARAuGCcYrwEYxwEYgAQYigUyBggCEEUYOTIHCAMQLhiABDIGCAQQRRhAMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg90gEINDIyMWoxajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=ie&sa=X&geocode=KWETsy3f86yJMWDbbMzRp9cr&daddr=517+W+Cabarrus+St+Suite+B,+Raleigh,+NC+27603,+United+States
+
 # Details About Assignment 
 ## 1. Technical Architecture Highlights
 
@@ -106,3 +110,5 @@ Complex data relationships, Real business pain points (), Multiple user types.
 * When it comes to the connection between the REST API and Flask,
   REST API = The "what" and "how" (The Design Principles)
   Flask =  The "with what" (The Tool to Implement It)
+
+  

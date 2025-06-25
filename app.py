@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 projects = [
     {
-        "name": "My Store",
+        "name": "Projects",
         "items": [
             {
                 "name": "Chair",
@@ -13,3 +13,10 @@ projects = [
         ]
     }
 ]
+
+@app.get("/project")
+def get_projects():
+    return{"projects": projects}
+
+if __name__ == "__main__":
+    app.run(debug=True)
